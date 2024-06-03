@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+#menu {
+	background-image: url("imagens/logotipo_sitio.png");	
+	background-repeat: no-repeat;
+	padding-bottom: 5px;
+	padding-left: 600px; 
+    max-width: 100%;
+    width: 270px;
+    background-color: pink;
+    margin: 0 auto;
+}
+#menu p a:link{
+	font-weight: bold;
+	color: blue;
+	background-color:rgb(245, 222, 226);
+	padding:5px ;
+	text-decoration:none ;
+}
+#menu p a:visited{
+	font-weight: bold;
+	color: black;
+	background-color:pink;
+	padding:5px ;
+	text-decoration:none ;
+}
+#menu p a:hover{
+	font-weight: bold;
+	color: black;
+	background-color:#f130a1;
+	padding:5px ;
+	text-decoration:none ;
+}
+
+.info {
+    background-repeat: no-repeat;
+    padding-right: 560px;
+    max-width: 100%;
+    padding-left: 40px;
+    width: 270px;
+    background-color: pink;
+    margin: 0 auto;
+}
+.info p {
+    display: block;
+}
+.info img{
+    margin-left: 500px;
+}
+
+.marca{
+    background-repeat: no-repeat;
+    padding-right: 560px;
+    max-width: 100%;
+    padding-left: 40px;
+    width: 270px;
+    background-color: rgb(241, 129, 148);
+    margin: 0 auto;
+    place-items: center;
+}
+
+.marca_sub {
+    padding-left:320px;
+    font-size:30px;
+    font-style: bold;
+    display: block;
+    text-align: right;
+}
+
+.marcacao{
+    background: white;
+    width: 400px;
+    height: 150px;
+    margin-left: 200px;
+}
+.servicos{
+    background-repeat: no-repeat;
+    padding-right: 560px;
+    max-width: 100%;
+    padding-left: 40px;
+    width: 270px;
+    background-color: rgb(209, 11, 48);
+    margin: 0 auto;
+    height: 100%;
+}
+
+div.servicos h2{
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+div.servesq{
+    width: 10%;
+    display: inline-block;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    min-width:25vw;
+}
+
+div.servdir{
+    width: 10%;
+        background-color: white;
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        padding: 40px 0px 40px 0px;
+        min-width:25vw;
+}
+
+.frame {
+    background-repeat: no-repeat;
+    padding-right: 560px;
+    max-width: 100%;
+    padding-left: 40px;
+    width: 270px;
+    background-color: rgb(133, 117, 120);
+    margin: 0 auto;
+}
+
