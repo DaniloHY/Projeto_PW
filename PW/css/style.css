@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/5da49843f66caf14799662bd12aa55a2?family=Dream+Avenue);
+
 *{
     margin: 0;
     padding: 0;
@@ -8,20 +10,20 @@ body{
 }
     
 #menu {
-	background-image: url("back_info_2.png");	
 	background-repeat: no-repeat;
 	padding-bottom: 5px;
-	padding-left: 600px; 
+	padding-left: 550px; 
     max-width: 100%;
     width: 270px;
     margin: 0 auto;
 }
 #menu p a:link{
-	font-weight: bold;
+    font-size: 10px;
 	color: blue;
-	background-color:rgb(245, 222, 226);
 	padding:5px ;
 	text-decoration:none ;
+    font-family: "Poppins";
+    margin-left: 15px;
 }
 #menu p a:visited{
 	font-weight: bold;
@@ -32,8 +34,8 @@ body{
 }
 #menu p a:hover{
 	font-weight: bold;
-	color: black;
-	background-color:#f130a1;
+	color: white;
+	background-color:#60554A;
 	padding:5px ;
 	text-decoration:none ;
 }
@@ -43,13 +45,21 @@ body{
     padding-right: 560px;
     max-width: 100%;
     padding-left: 40px;
-    width: 1280px;
-    background-image: url("back_info_2.png");
+    width: 270px;
+    background-image:linear-gradient(
+        45deg,
+        #D4C2AA 0.5%,
+        white,
+        #D4C2AA
+    );
     margin: 0 auto;
-    height: 700px;
+    height: 300px;
+}
+.info h3 {
+    font-family: "Dream Avenue";
 }
 .info p {
-    display: block;
+    font-family: "Poppins";
 }
 .info img{
     margin-left: 500px;
@@ -61,7 +71,7 @@ body{
     max-width: 100%;
     padding-left: 40px;
     width: 270px;
-    background-color: rgb(241, 129, 148);
+    background: #D4C2AA;
     margin: 0 auto;
     place-items: center;
     padding-bottom: 25px;
@@ -73,6 +83,7 @@ body{
     font-style: bold;
     display: block;
     text-align: right;
+    font-family: "Dream Avenue";
 }
 
 .marcacao{
@@ -80,11 +91,14 @@ body{
     width: 400px;
     height: 150px;
     margin-left: 200px;
+    font-family: "Poppins";
 }
 .servicos{
     width: 870px;
-    background-color: rgb(209, 11, 48);
+    background-color: #60554A;
     margin: 0 auto;
+    font-family: "Dream Avenue";
+    height: 700px;
 }
 
 /*.servesq {
@@ -108,18 +122,30 @@ body{
     display: inline-block;
     width: 45%;
     background-color: white;
-    height: 150px;
     margin-left: 25px;
     margin-bottom: 40px;
+    font-family: "Poppins";
+    height: 300px;
+    text-align: center;
+}
+
+.servesq h3{
+    padding: 20px;
 }
 
 .servdir{
     display: inline-block;
     width: 45%;
-    background-color: white;
-    height: 150px;
+    background-color: rgb(251, 251, 251);
+    height: 300px;
     margin-left: 30px;
+    font-family: "Poppins";
+    text-align: center;
 }
+.servdir h3{
+    padding: 20px;
+}
+
 
 .frame {
     background-repeat: no-repeat;
@@ -127,24 +153,26 @@ body{
     max-width: 100%;
     padding-left: 40px;
     width: 270px;
-    background-color: rgb(133, 117, 120);
+    background-color: nude;
     margin: 0 auto;
 }
 
 .frame h3{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Dream Avenue";
     padding-top: 20px;
 }
 
 .sub_frame {
     font-size: 18px;
     padding-bottom: 10px;
+    font-family: "Poppins";
 }
 .sub_frame2 {
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 15px;
+    font-family: "Dream Avenue";
 }
 
 .form{
@@ -157,4 +185,5 @@ body{
     margin-left: 470px;
     width: 100%;
     font-size: 20px;
+    font-family: "Dream Avenue";
 }
