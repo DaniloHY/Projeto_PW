@@ -64,6 +64,7 @@ body{
     background-color: rgb(241, 129, 148);
     margin: 0 auto;
     place-items: center;
+    padding-bottom: 25px;
 }
 
 .marca_sub {
@@ -81,47 +82,43 @@ body{
     margin-left: 200px;
 }
 .servicos{
-    padding-right: 560px;
-    padding-left: 40px;
-    width: 270px;
+    width: 870px;
     background-color: rgb(209, 11, 48);
     margin: 0 auto;
-    height: 100%;
 }
 
-.servesq {
+/*.servesq {
     background: white;
     display: inline-block;
     color: black;
+    max-width: 70%;
+    width: 200px;
+    margin: 0 auto;
 }
-
-div.servicos h2{
+*/
+.servicos h2{
     text-align: center;
-    padding-left: 350px;
     padding-top: 50px;
     color: white;
     font-size: 30px;
-    display: flex;
+    padding-bottom: 20px;
 }
 
-div.servesq{
-    width: 10%;
+.servesq{
     display: inline-block;
+    width: 45%;
     background-color: white;
-    font-size: 15px;
-    text-align: center;
-    padding: 40px 0px 40px 0px;
-
+    height: 150px;
+    margin-left: 25px;
+    margin-bottom: 40px;
 }
 
-div.servdir{
-    width: 10%;
-        background-color: white;
-        display: inline-block;
-        font-size: 15px;
-        text-align: center;
-        padding: 40px 0px 40px 0px;
-        min-width:25vw;
+.servdir{
+    display: inline-block;
+    width: 45%;
+    background-color: white;
+    height: 150px;
+    margin-left: 30px;
 }
 
 .frame {
@@ -134,3 +131,30 @@ div.servdir{
     margin: 0 auto;
 }
 
+.frame h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.sub_frame {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.sub_frame2 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.form{
+    display: inline-block;
+    width: 40%;
+}
+
+.contato{
+    display: inline-block;
+    margin-left: 470px;
+    width: 100%;
+    font-size: 20px;
+}
