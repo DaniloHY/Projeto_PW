@@ -5,55 +5,58 @@
     padding: 0;
 }
 
-body{
-    width: 1280px;
+#container{
+    width: 100%;
 }
-    
-#menu {
+.cabecalho {
 	background-repeat: no-repeat;
 	padding-bottom: 5px;
-	padding-left: 550px; 
     max-width: 100%;
     width: 270px;
-    margin: 0 auto;
+    display: inline-block;
 }
-#menu p a:link{
-    font-size: 10px;
-	color: blue;
+
+.cabecalho nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 580px;
+}
+
+
+.cabecalho nav a:link{
+    font-size: 15px;
+	color: black;
 	padding:5px ;
 	text-decoration:none ;
     font-family: "Poppins";
     margin-left: 15px;
 }
-#menu p a:visited{
+.cabecalho nav a:visited{
 	font-weight: bold;
 	color: black;
 	background-image: url("back_info.png");
 	padding:5px ;
 	text-decoration:none;
 }
-#menu p a:hover{
+.cabecalho nav a:hover{
 	font-weight: bold;
 	color: white;
 	background-color:#60554A;
 	padding:5px ;
 	text-decoration:none ;
-}
+} 
 
 .info {
     background-repeat: no-repeat;
-    padding-right: 560px;
+    /* padding-right: 560px; */
     max-width: 100%;
-    padding-left: 40px;
-    width: 270px;
     background-image:linear-gradient(
         45deg,
         #D4C2AA 0.5%,
         white,
         #D4C2AA
     );
-    margin: 0 auto;
-    height: 300px;
+    height: 700px;
 }
 .info h3 {
     font-family: "Dream Avenue";
@@ -61,44 +64,122 @@ body{
 .info p {
     font-family: "Poppins";
 }
-.info img{
-    margin-left: 500px;
+
+/* .img {
+    display: inline-block;
+    width: 40%;
+} */
+header {
+    height: 100px;
+    padding-left: 40px;
+    padding-right:158px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cabecalho {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.naveg {
+    display: flex;
+    gap: 92px;
+}
+
+
+.logoLO {
+    max-width: 2%;
+}
+
+.hero {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 594px;
+    height: 592px;
+    
+}
+
+.subtitulo{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.sub_sub{
+    font-size: 15px;
+}
+h3 {
+    font-weight: normal;
+}
+
+.tprincial {
+    font-size: 65px;
+    line-height: 100%;
+
+}
+
+.fotohero {
+    align-items: center;
+    position: relative;
+    bottom: 60px; right: 50px;
 }
 
 .marca{
     background-repeat: no-repeat;
-    padding-right: 560px;
+    padding-right: 970px;
     max-width: 100%;
     padding-left: 40px;
-    width: 270px;
     background: #D4C2AA;
     margin: 0 auto;
     place-items: center;
     padding-bottom: 25px;
 }
 
+.marca2{
+    display: inline-block;
+    width: 45%;
+}
+
+.marca3{
+    display: inline-block;
+    width: 45%;
+}
+
 .marca_sub {
-    padding-left:320px;
-    font-size:30px;
+    padding-left:470px;
+    font-size:110px;
     font-style: bold;
-    display: block;
-    text-align: right;
+    font-family: "Dream Avenue";
+    display: flex;
+}
+.marca_sub2 {
+    padding-left:470px;
+    font-size:40px;
+    font-style: bold;
     font-family: "Dream Avenue";
 }
 
 .marcacao{
     background: white;
-    width: 400px;
-    height: 150px;
-    margin-left: 200px;
+    width: 430px;
+    height: 230px;
+    margin-left: 470px;
     font-family: "Poppins";
+    text-align: center;
 }
 .servicos{
-    width: 870px;
     background-color: #60554A;
     margin: 0 auto;
     font-family: "Dream Avenue";
     height: 700px;
+    padding-top: 150px;
 }
 
 /*.servesq {
@@ -114,31 +195,45 @@ body{
     text-align: center;
     padding-top: 50px;
     color: white;
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 80px;
+    padding-bottom: 40px;
+    font-weight: 0;
 }
 
 .servesq{
     display: inline-block;
-    width: 45%;
+    width: 30%;
     background-color: white;
-    margin-left: 25px;
+    margin-left: 250px;
     margin-bottom: 40px;
     font-family: "Poppins";
     height: 300px;
     text-align: center;
 }
 
+h2 {
+    font-weight: normal;
+}
 .servesq h3{
     padding: 20px;
 }
 
+.servesq button{
+    margin-top: 38px;
+    background: #D4C2AA;
+    color: white;
+    width: 250px;
+    font-size: 25px;
+    font-family: "Poppins";
+    border: 0;
+}
+
 .servdir{
     display: inline-block;
-    width: 45%;
+    width: 30%;
     background-color: rgb(251, 251, 251);
     height: 300px;
-    margin-left: 30px;
+    margin-left: 34px;
     font-family: "Poppins";
     text-align: center;
 }
@@ -146,19 +241,27 @@ body{
     padding: 20px;
 }
 
+.servdir button{
+    margin-top: 38px;
+    background: #D4C2AA;
+    color: white;
+    width: 250px;
+    font-size: 25px;
+    font-family: "Poppins";
+    border: 0;
+}
 
 .frame {
     background-repeat: no-repeat;
     padding-right: 560px;
     max-width: 100%;
     padding-left: 40px;
-    width: 270px;
     background-color: nude;
     margin: 0 auto;
 }
 
 .frame h3{
-    font-size: 20px;
+    font-size: 65px;
     font-family: "Dream Avenue";
     padding-top: 20px;
 }
@@ -187,3 +290,52 @@ body{
     font-size: 20px;
     font-family: "Dream Avenue";
 }
+/*
+@media screen and (max-width: 1500px) {
+    #container{
+        width: 80%;
+    }   /*caso a viewport(janela do navegador) ou tamanho da tela for
+        igual ou até 83em (vc também pode usar px se preferir) a classe .container só ocupará 80% da tela*
+        .cabecalho {
+            padding-bottom: 4px;
+            width: 80%;
+            width: 270px;
+        }
+        .cabecalho nav {
+            margin-left: 464px;
+        }
+        .cabecalho nav a:link{
+            font-size: 12px;
+            color: black;
+            padding:4px ;
+            text-decoration:none ;
+            font-family: "Poppins";
+            margin-left: 12px;
+        }
+        .cabecalho nav a:visited{
+            font-weight: bold;
+            color: black;
+            padding:4px ;
+            text-decoration:none;
+        }
+        .cabecalho nav a:hover{
+            font-weight: bold;
+            color: white;
+            background-color:#60554A;
+            padding:4px ;
+            text-decoration:none ;
+        } 
+        .info {
+            background-repeat: no-repeat;
+            /* padding-right: 560px; 
+            width: 80%;
+            background-image:linear-gradient(
+                45deg,
+                #D4C2AA 0.5%,
+                white,
+                #D4C2AA
+            );
+            height: 560px;
+        }
+        
+}*/
